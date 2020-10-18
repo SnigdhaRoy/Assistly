@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1746DF4DC3FC6A883E2B75EA /* Pods_KWK___amenity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */; };
+		F65E640024D348F20039DC5A /* JournalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */; };
+		F65E640224D349490039DC5A /* journalEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65E640124D349490039DC5A /* journalEntries.swift */; };
+		F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */; };
+		F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */; };
+		F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566524D1BA6B00CE8ED2 /* Main.storyboard */; };
+		F691566A24D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F691566824D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld */; };
+		F691566C24D1BA7000CE8ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F691566B24D1BA7000CE8ED2 /* Assets.xcassets */; };
+		F691566F24D1BA7000CE8ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F691566D24D1BA7000CE8ED2 /* LaunchScreen.storyboard */; };
+		F691567724D1BFEF00CE8ED2 /* Quicksand in Resources */ = {isa = PBXBuildFile; fileRef = F691567624D1BFEF00CE8ED2 /* Quicksand */; };
+		F691568224D1C07D00CE8ED2 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */; };
+		F691568324D1C07D00CE8ED2 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */; };
+		F691568424D1C07D00CE8ED2 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */; };
+		F691568524D1C07D00CE8ED2 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */; };
+		F691568624D1C07D00CE8ED2 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */; };
+		F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568724D1C3D500CE8ED2 /* TipsViewController.swift */; };
+		F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */; };
+		F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568D24D1C41800CE8ED2 /* HelpViewController.swift */; };
+		F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F691568F24D1D06B00CE8ED2 /* AddViewController.swift */; };
+		F6B3105524D44909007F3CB7 /* LogoLaunch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */; };
+		F6DC5DC724D392DC00A77FC5 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC5DC624D392DC00A77FC5 /* journal.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.debug.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_KWK___amenity.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KWK - amenity.release.xcconfig"; path = "Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity.release.xcconfig"; sourceTree = "<group>"; };
+		F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewController.swift; sourceTree = "<group>"; };
+		F65E640124D349490039DC5A /* journalEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalEntries.swift; sourceTree = "<group>"; };
+		F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK - amenity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F691566624D1BA6B00CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "KWK___amenity.xcdatamodel"; sourceTree = "<group>"; };
+		F691566B24D1BA7000CE8ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F691566E24D1BA7000CE8ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F691567024D1BA7000CE8ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F691567624D1BFEF00CE8ED2 /* Quicksand */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Quicksand; path = ../../Downloads/Quicksand; sourceTree = "<group>"; };
+		F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		F691567F24D1C04300CE8ED2 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		F691568024D1C04300CE8ED2 /* Quicksand-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		F691568124D1C04300CE8ED2 /* README.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		F691568724D1C3D500CE8ED2 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		F691568D24D1C41800CE8ED2 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		F691568F24D1D06B00CE8ED2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogoLaunch.storyboard; sourceTree = "<group>"; };
+		F6DC5DC624D392DC00A77FC5 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F691565924D1BA6B00CE8ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1746DF4DC3FC6A883E2B75EA /* Pods_KWK___amenity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99E47DE622B618BD36B8838E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */,
+				A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BAC62A482F129B5D6482EDDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1DD1476EBCAB31D0C2D29 /* Pods_KWK___amenity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F691565324D1BA6B00CE8ED2 = {
+			isa = PBXGroup;
+			children = (
+				F691567624D1BFEF00CE8ED2 /* Quicksand */,
+				F691565E24D1BA6B00CE8ED2 /* KWK - amenity */,
+				F691565D24D1BA6B00CE8ED2 /* Products */,
+				99E47DE622B618BD36B8838E /* Pods */,
+				BAC62A482F129B5D6482EDDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F691565D24D1BA6B00CE8ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F691565E24D1BA6B00CE8ED2 /* KWK - amenity */ = {
+			isa = PBXGroup;
+			children = (
+				F691565F24D1BA6B00CE8ED2 /* AppDelegate.swift */,
+				F691568F24D1D06B00CE8ED2 /* AddViewController.swift */,
+				F6B3105424D44909007F3CB7 /* LogoLaunch.storyboard */,
+				F691566124D1BA6B00CE8ED2 /* SceneDelegate.swift */,
+				F65E63FF24D348F20039DC5A /* JournalTableViewController.swift */,
+				F6DC5DC624D392DC00A77FC5 /* journal.swift */,
+				F691566524D1BA6B00CE8ED2 /* Main.storyboard */,
+				F65E640124D349490039DC5A /* journalEntries.swift */,
+				F691568D24D1C41800CE8ED2 /* HelpViewController.swift */,
+				F691568924D1C3FA00CE8ED2 /* CalendarViewController.swift */,
+				F691568724D1C3D500CE8ED2 /* TipsViewController.swift */,
+				F691566B24D1BA7000CE8ED2 /* Assets.xcassets */,
+				F691566D24D1BA7000CE8ED2 /* LaunchScreen.storyboard */,
+				F691567024D1BA7000CE8ED2 /* Info.plist */,
+				F691566824D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld */,
+				F691567824D1C04300CE8ED2 /* Quicksand */,
+			);
+			path = "KWK - amenity";
+			sourceTree = "<group>";
+		};
+		F691567824D1C04300CE8ED2 /* Quicksand */ = {
+			isa = PBXGroup;
+			children = (
+				F691567924D1C04300CE8ED2 /* static */,
+				F691567F24D1C04300CE8ED2 /* OFL.txt */,
+				F691568024D1C04300CE8ED2 /* Quicksand-VariableFont_wght.ttf */,
+				F691568124D1C04300CE8ED2 /* README.txt */,
+			);
+			path = Quicksand;
+			sourceTree = "<group>";
+		};
+		F691567924D1C04300CE8ED2 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				F691567A24D1C04300CE8ED2 /* Quicksand-Bold.ttf */,
+				F691567B24D1C04300CE8ED2 /* Quicksand-Medium.ttf */,
+				F691567C24D1C04300CE8ED2 /* Quicksand-Regular.ttf */,
+				F691567D24D1C04300CE8ED2 /* Quicksand-SemiBold.ttf */,
+				F691567E24D1C04300CE8ED2 /* Quicksand-Light.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F691565B24D1BA6B00CE8ED2 /* KWK - amenity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F691567324D1BA7000CE8ED2 /* Build configuration list for PBXNativeTarget "KWK - amenity" */;
+			buildPhases = (
+				9BD6455E4275FE2AC06F98D8 /* [CP] Check Pods Manifest.lock */,
+				F691565824D1BA6B00CE8ED2 /* Sources */,
+				F691565924D1BA6B00CE8ED2 /* Frameworks */,
+				F691565A24D1BA6B00CE8ED2 /* Resources */,
+				868BE6CCD76E1CE776D3426A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWK - amenity";
+			productName = "KWK - amenity";
+			productReference = F691565C24D1BA6B00CE8ED2 /* KWK - amenity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F691565424D1BA6B00CE8ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jendy Ren";
+				TargetAttributes = {
+					F691565B24D1BA6B00CE8ED2 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F691565724D1BA6B00CE8ED2 /* Build configuration list for PBXProject "KWK - amenity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F691565324D1BA6B00CE8ED2;
+			productRefGroup = F691565D24D1BA6B00CE8ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F691565B24D1BA6B00CE8ED2 /* KWK - amenity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F691565A24D1BA6B00CE8ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B3105524D44909007F3CB7 /* LogoLaunch.storyboard in Resources */,
+				F691567724D1BFEF00CE8ED2 /* Quicksand in Resources */,
+				F691568524D1C07D00CE8ED2 /* Quicksand-SemiBold.ttf in Resources */,
+				F691566F24D1BA7000CE8ED2 /* LaunchScreen.storyboard in Resources */,
+				F691568624D1C07D00CE8ED2 /* Quicksand-Light.ttf in Resources */,
+				F691568424D1C07D00CE8ED2 /* Quicksand-Regular.ttf in Resources */,
+				F691566C24D1BA7000CE8ED2 /* Assets.xcassets in Resources */,
+				F691566724D1BA6B00CE8ED2 /* Main.storyboard in Resources */,
+				F691568224D1C07D00CE8ED2 /* Quicksand-Bold.ttf in Resources */,
+				F691568324D1C07D00CE8ED2 /* Quicksand-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		868BE6CCD76E1CE776D3426A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KWK - amenity/Pods-KWK - amenity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD6455E4275FE2AC06F98D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KWK - amenity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F691565824D1BA6B00CE8ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65E640224D349490039DC5A /* journalEntries.swift in Sources */,
+				F691568A24D1C3FA00CE8ED2 /* CalendarViewController.swift in Sources */,
+				F691568824D1C3D500CE8ED2 /* TipsViewController.swift in Sources */,
+				F6DC5DC724D392DC00A77FC5 /* journal.swift in Sources */,
+				F65E640024D348F20039DC5A /* JournalTableViewController.swift in Sources */,
+				F691569024D1D06B00CE8ED2 /* AddViewController.swift in Sources */,
+				F691568E24D1C41800CE8ED2 /* HelpViewController.swift in Sources */,
+				F691566024D1BA6B00CE8ED2 /* AppDelegate.swift in Sources */,
+				F691566224D1BA6B00CE8ED2 /* SceneDelegate.swift in Sources */,
+				F691566A24D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F691566524D1BA6B00CE8ED2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F691566624D1BA6B00CE8ED2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F691566D24D1BA7000CE8ED2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F691566E24D1BA7000CE8ED2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F691567124D1BA7000CE8ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F691567224D1BA7000CE8ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F691567424D1BA7000CE8ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CDD97CB9EFD9ECF8667A58 /* Pods-KWK - amenity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK - amenity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK---amenity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F691567524D1BA7000CE8ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E4A41EC07A82C4DC9E2A3C /* Pods-KWK - amenity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KWK - amenity/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK---amenity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F691565724D1BA6B00CE8ED2 /* Build configuration list for PBXProject "KWK - amenity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F691567124D1BA7000CE8ED2 /* Debug */,
+				F691567224D1BA7000CE8ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F691567324D1BA7000CE8ED2 /* Build configuration list for PBXNativeTarget "KWK - amenity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F691567424D1BA7000CE8ED2 /* Debug */,
+				F691567524D1BA7000CE8ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F691566824D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */,
+			);
+			currentVersion = F691566924D1BA6B00CE8ED2 /* KWK___amenity.xcdatamodel */;
+			path = "KWK___amenity.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F691565424D1BA6B00CE8ED2 /* Project object */;
+}
