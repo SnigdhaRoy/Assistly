@@ -1,1 +1,1 @@
-Congressional App Challenge: Assistly 💜
+ Assistly 💜
